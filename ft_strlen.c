@@ -6,7 +6,7 @@
 /*   By: oalbahra <oalbahra@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 18:53:51 by oalbahra          #+#    #+#             */
-/*   Updated: 2026/10/19 16:12:56 by oalbahra         ###   ########.fr       */
+/*   Updated: 2026/10/20 18:27:00 by oalbahra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 size_t	ft_strlen(char *s)
 {
-	size_t	n = 0;
+	size_t	n;
 
+	n = 0;
 	while (*s)
 	{
 		n++;
