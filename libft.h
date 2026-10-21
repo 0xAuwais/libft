@@ -19,6 +19,8 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+char *strchr(const char *s, int c);
+char *strrchr(const char *s, int c);
 size_t	ft_strlen(char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 void	*ft_memset(void *s, int c, size_t n);
